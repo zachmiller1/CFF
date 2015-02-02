@@ -21,18 +21,18 @@ body {
 
 h1 {
 	font-size: 1.625em;
-	font-weight: 300;
+	font-weight: 100;
 	color: #fff;
-	text-shadow: 0px 1px 3px rgba(150, 150, 150, 0.3);
-	-webkit-text-shadow: 0px 1px 3px rgba(150, 150, 150, 0.3);
-	-moz-box-text-shadow: 0px 1px 3px rgba(150, 150, 150, 0.3);
+	text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.35);
+	-webkit-text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.35);
+	-moz-box-text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.35);
 	margin: 15px 0;
 }
 
 h2 {
 	font-size: 1.75em;
 	font-weight: 900;
-	margin: 40px 0 30px;
+	margin-bottom: 30px;
 	color: #264f74;
 	letter-spacing: .5px;
 }
@@ -40,7 +40,7 @@ h2 {
 h3 {
 	font-size: 1.625em;
 	font-weight: 700;
-	margin: 20px 0;
+	margin: 0 0 20px;
 	color: #264f74;
 	letter-spacing: -.4px;
 }
@@ -49,10 +49,10 @@ h4 {
 	font-size: 1.5em;
 	font-weight: 700;
 	color: #fff;
-	margin: 40px 0;
-	-webkit-text-shadow: 0px 2px 5px rgba(150, 150, 150, 0.35);
-	-moz-box-text-shadow: 0px 2px 5px rgba(150, 150, 150, 0.35);
-	text-shadow: 0px 2px 5px rgba(150, 150, 150, 0.35);
+	margin: 0 0 30px;
+	-webkit-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
+	-moz-box-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
+	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
 	letter-spacing: 1px;
 }
 
@@ -74,6 +74,7 @@ p {
 	font-size: .875em;
 	color: #222;
 	line-height: 1.5;
+	font-weight: 300;
 }
 
 /* ========================================
@@ -83,7 +84,7 @@ p {
 .donate {
 	background: #52973b;
 	color: #fff;
-	margin: 35px 0;
+	margin: 50px 0;
 }
 
 .green {
@@ -99,7 +100,7 @@ p {
 .subscribe {
 	background: #fff;
 	color: #222;
-	margin: 20px 0;
+	margin: 15px 0 20px;
 }
 
 .Button {
@@ -117,8 +118,9 @@ p {
 	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.35);
 }
 
-.textContainer {
-	
+.offerContainer {
+	border: 2px solid #264f74;
+	border-radius: 10px;
 }
 
 .hidden {
@@ -137,6 +139,10 @@ p {
 
 .clearfix:after { 
 	clear: both; 
+}
+
+section {
+	padding: 40px 0;
 }
 
 /* ========================================
@@ -180,8 +186,297 @@ p {
 }
 
 
+/* ========================================
+			Hero Section
+=========================================== */
+
+.heroImage {
+	background: url('../images/heroImage.jpg') no-repeat;
+	width: 100%;
+	height: 225px;
+	background-size: cover;
+	position: relative;
+}
+
+.heroText {
+	background: rgba(109, 145, 168, .75);
+	height: 85px;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.heroText h1 {
+	width: 75%;
+	margin: 12px auto;
+	line-height: 1.2;
+}
 
 
+/* ========================================
+			Who We Are
+=========================================== */
+
+.textContainer {
+	width: 86%;
+	margin: 0 auto;
+}
+
+main.container {
+	background-color: rgba(255, 255, 255, .5);
+	padding: 40px 0;
+}
+
+main p {
+	font-size: 1.125em;
+	line-height: 1.7;
+}
+
+main h2 {
+	font-size: 1.875em;
+}
+
+
+/* ========================================
+			What We Offer
+=========================================== */
+
+.offerSection {
+	background: rgba(218, 224, 229, .5);
+}
+
+.offerIntro p {
+	margin-bottom: 40px;
+	font-size: 1em;
+	line-height: 1.7;
+}
+
+.offercontainer p {
+	font-weight: 300;
+}
+
+.offerContainer {
+	padding: 20px 0;
+	margin-bottom: 30px;
+	background: rgb(177,211,242); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(177,211,242,.3) 0%, rgba(165,199,230,.3) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(177,211,242,.3)), color-stop(100%,rgba(165,199,230,.3))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(177,211,242,.3) 0%,rgba(165,199,230,.3) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(177,211,242,.3) 0%,rgba(165,199,230,.3) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(177,211,242,.3) 0%,rgba(165,199,230,.3) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(177,211,242,.3) 0%,rgba(165,199,230,.3) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1d3f2', endColorstr='#a5c7e6',GradientType=0 ); /* IE6-9 */
+
+	display: block;
+
+}
+
+.offerContainer img {
+	width: 190px;
+	height: 125px;
+	border: 2px solid #264f74;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.6);
+	-moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 0.6);
+	box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 0.6);
+
+}
+
+
+/* ========================================
+			By the Numbers
+=========================================== */
+
+
+.numbers {
+	background: rgb(105,152,195); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(105,152,195,1) 0%, rgba(38,79,116,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(105,152,195,1)), color-stop(100%,rgba(38,79,116,1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(105,152,195,1) 0%,rgba(38,79,116,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  rgba(105,152,195,1) 0%,rgba(38,79,116,1) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(105,152,195,1) 0%,rgba(38,79,116,1) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  rgba(105,152,195,1) 0%,rgba(38,79,116,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6998c3', endColorstr='#264f74',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ 
+ 	height: 280px;
+}
+
+.numbers p {
+	font-size: 1.375em;
+	font-weight: 100;
+	color: #fff;
+}
+
+p.number {
+	font-weight: 700;
+	font-style: italic;
+	font-size: 2.625em;
+	margin: 10px 0;
+	-webkit-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
+	-moz-box-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
+	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
+}
+
+.alignR {
+	text-align: right;
+}
+
+.alignL {
+	text-align: left;
+}
+
+em {
+	font-style: italic;
+}
+
+
+/* ========================================
+			News
+=========================================== */
+
+.news h2 {
+	margin-bottom: 50px;
+}
+
+.imageContainer {
+	width: 205px;
+	height: 180px;
+	margin: 0 auto 30px;
+	border-radius: 5px;
+	position: relative;
+	-webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+	-moz-box-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+	display: block;
+}
+
+.newsContainer {
+	background: rgba(82, 151, 59, .8);
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	border-radius: 0 0 5px 5px;
+	padding: 5px;
+}
+
+.newsContainer p.date {
+	font-weight: 700;
+	color: #fff;
+	margin: 5px 0;
+}
+
+.newsContainer p {
+	font-size: .675em;
+	font-weight: 300;
+	line-height: 1;
+	color: #fff;
+	line-height: 1.4;
+	margin-bottom: 5px;
+}
+
+.art1 {
+	background: url('../images/toyotaDad.jpg');
+	background-size: cover;
+}
+
+.art2 {
+	background: url('../images/healthy.jpg') -20px;
+	background-size: cover;
+}
+
+.art3 {
+	background: url('../images/tdBank.jpg') -70px;
+	background-size: cover;
+}
+
+
+/* ========================================
+			Newsletter CTA
+=========================================== */
+
+
+.newsletterCTA {
+	background: #953333;
+	height: 125px;
+	padding: 20px 0;
+}
+
+.newsletterCTA h5 {
+	letter-spacing: .5px;
+	margin-bottom: 3px;
+}
+
+.newsletterCTA p {
+	color: #fff;
+	font-weight: 100;
+}
+
+
+/* ========================================
+			Footer
+=========================================== */
+
+
+.mainFooter {
+	background: #33414d;
+	padding-top: 40px;
+}
+
+.mainFooter h6 {
+	color: #6994b8;
+	letter-spacing: .8;
+	margin-bottom: 10px;
+	line-height: 1.3;
+}
+
+.mainHeader p {
+	color: #aaa;
+}
+
+.footerHeader p {
+	font-style: italic;
+	color: #aaa;
+	font-size: .675em;
+}
+
+a.contactUs {
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+b {
+	font-weight: 700;
+	letter-spacing: .9;
+}
+
+.contact p {
+	color: #aaa;
+}
+
+.socialIcon {
+	margin: 20px 10px 40px;
+}
+
+.footerBottom {
+	background: #6994b8;
+	height: 75px;
+	padding: 10px;
+}
+
+.footerBottom p {
+	color: #fff;
+	font-size: .675em;
+	margin-bottom: 5px;
+}
+
+.footerBottom a {
+	font-size: .675em;
+	color: #fff;
+	display: inline;
+	margin: 0 10px;
+}
 
 
 
