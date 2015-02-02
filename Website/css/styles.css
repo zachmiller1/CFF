@@ -1,0 +1,190 @@
+/* Import Google Fonts */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
+
+/* Box Sizing */
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+  	-webkit-box-sizing: border-box;
+  	box-sizing: border-box;
+}
+
+/* ========================================
+			General Styles 
+=========================================== */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: url('../images/church.png') top left repeat;
+	text-align: center;
+	color: #222;
+}
+
+h1 {
+	font-size: 1.625em;
+	font-weight: 300;
+	color: #fff;
+	text-shadow: 0px 1px 3px rgba(150, 150, 150, 0.3);
+	-webkit-text-shadow: 0px 1px 3px rgba(150, 150, 150, 0.3);
+	-moz-box-text-shadow: 0px 1px 3px rgba(150, 150, 150, 0.3);
+	margin: 15px 0;
+}
+
+h2 {
+	font-size: 1.75em;
+	font-weight: 900;
+	margin: 40px 0 30px;
+	color: #264f74;
+	letter-spacing: .5px;
+}
+
+h3 {
+	font-size: 1.625em;
+	font-weight: 700;
+	margin: 20px 0;
+	color: #264f74;
+	letter-spacing: -.4px;
+}
+
+h4 {
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #fff;
+	margin: 40px 0;
+	-webkit-text-shadow: 0px 2px 5px rgba(150, 150, 150, 0.35);
+	-moz-box-text-shadow: 0px 2px 5px rgba(150, 150, 150, 0.35);
+	text-shadow: 0px 2px 5px rgba(150, 150, 150, 0.35);
+	letter-spacing: 1px;
+}
+
+h5 {
+	font-size: 1em;
+	font-weight: 700;
+	font-style: italic;
+	color: #fff;
+}
+
+a {
+	color: #6993b7;
+	font-size: 1em;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+p {
+	font-size: .875em;
+	color: #222;
+	line-height: 1.5;
+}
+
+/* ========================================
+			Framework Styles 
+=========================================== */
+
+.donate {
+	background: #52973b;
+	color: #fff;
+	margin: 35px 0;
+}
+
+.green {
+	background: #52973b;
+	float: left;
+}
+
+.blue {
+	background: #486179;
+	float: right;
+}
+
+.subscribe {
+	background: #fff;
+	color: #222;
+	margin: 20px 0;
+}
+
+.Button {
+	font-size: 1em;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	width: 140px;
+	padding: 8px 0;
+	text-align: center;
+	display: inline-block;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.35);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.35);
+}
+
+.textContainer {
+	
+}
+
+.hidden {
+	position: absolute;
+	left: -9999px;
+}
+
+.clearfix { 
+	zoom: 1; 
+}
+
+.clearfix:before, .clearfix:after { 
+	content: ""; 
+	display: table; 
+}
+
+.clearfix:after { 
+	clear: both; 
+}
+
+/* ========================================
+			Header 
+=========================================== */
+
+.logoReplace a {
+	display:block;
+	margin:0 auto;
+	height: 85px;
+	width: 200px;
+	background-size: contain;
+	background-image: url(../images/CFFlogo.png);
+	text-indent: -9999px;
+}
+
+
+
+
+
+
+/* Main Nav */
+
+.mainNav {
+	display: block;
+}
+
+.mainNav a {
+	color: #fff;
+	font-weight: 300;
+	font-size: 0.875em;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 20px 0;
+	width: 50%;
+}
+
+.menuNav {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
