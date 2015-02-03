@@ -34,6 +34,8 @@
 	        	<nav class="mainNav clearfix">
 	        		<h2 class="hidden">Main Site Navigation</h2>
 
+	        		<a href="#" class="search">Search</a>
+
 	        		<a href="#" class="green">Donate</a>
 
         			<a href="#" class="blue">Menu</a>
@@ -45,8 +47,8 @@
         				<li><a href="#">FAQ</a></li>
         				<li><a href="#">News</a></li>
         				<li><a href="#">Contact Us</a></li>
-        				<li><a href="#" class="searchNav">Search</a></li>
         				<li><a href="#" class="donateNav">Donate</a></li>
+        				<li><a href="#" class="searchNav">Search</a></li>
         			</ul><!-- end menuNav -->
 
 	        	</nav><!-- end mainNav -->
@@ -81,27 +83,27 @@
 	        		
 					<!-- offer 1 -->
 					<a href="" class="offerContainer">
-						<div class="textContainer">
+						<div class="textContainer clearfix">
 							<h3>Programs</h3>
-							<img src="images/programs.jpg" alt="Father laughing with his son.">
+							<div class="offerImage programs"></div>
 							<p>Fatherhood programs are thoughtfully created to deliver services that work from the inside out, helping fathers prepare to meet the material, emotional and spiritual needs of their children.</p>
 						</div><!-- end offerContainer -->
 					</a><!-- end offer -->
 	
 					<!-- offer 2 -->
 					<a href="" class="offerContainer">
-						<div class="textContainer">
+						<div class="textContainer clearfix">
 							<h3>Resources</h3>
-							<img src="images/resources.jpg" alt="Father reading with his daughter.">
+							<div class="offerImage resources"></div>
 							<p>National organizations and well-established local and regional organizations that provide helpful information for practitioners and families continue to grow as the Responsible Fatherhood.</p>
 						</div><!-- end offerContainer -->
 					</a><!-- end offer -->
 	
 					<!-- offer 3 -->
 					<a href="" class="offerContainer">
-						<div class="textContainer">
+						<div class="textContainer clearfix">
 							<h3>Expertise</h3>
-							<img src="images/expertise.jpg" alt="Happy family smiling at the camera.">
+							<div class="offerImage expertise"></div>
 							<p>The Center has hands-on knowledge and documented evidence of how to start, run and grow successful fatherhood engagement programs.</p>
 						</div><!-- end offerContainer -->
 					</a><!-- end offer -->
@@ -121,49 +123,49 @@
 
 
 			<!-- News -->
-			<section class="news">
+			<section class="news clearfix">
 				<h2>News</h2>
 
 				<!-- article 1 -->
-				<a href="#" class="art1 imageContainer">
-					<h2 class="hidden">Article 1</h2>
-
-					<div class="newsContainer">
-						<p class="date">January 29, 2015</p>
-						<p>Dove joins Toyata in putting a positive focus on Dads during Super Bowl</p>
-					</div><!-- end newsContainer -->
-				</a href="#"><!-- end imageContainer -->
+				<div class="articleContainer"><a href="#" class="art1 imageContainer">
+						<h2 class="hidden">Article 1</h2>
+					
+						<div class="newsContainer">
+							<p class="date">January 29, 2015</p>
+							<p>Dove joins Toyata in putting a positive focus on Dads during Super Bowl</p>
+						</div><!-- end newsContainer -->
+					</a href="#"><!-- end imageContainer --></div>
 
 				<!-- article 2 -->
-				<a href="#" class="art2 imageContainer">
-					<h2 class="hidden">Article 2</h2>
-
-					<div class="newsContainer">
-						<p class="date">January 27, 2015</p>
-						<p>Junior League grant will help Dads and their kids learn to eat healthier</p>
-					</div><!-- end newsContainer -->
-				</a href="#"><!-- end imageContainer -->
+				<div class="articleContainer"><a href="#" class="art2 imageContainer">
+						<h2 class="hidden">Article 2</h2>
+					
+						<div class="newsContainer">
+							<p class="date">January 27, 2015</p>
+							<p>Junior League grant will help Dads and their kids learn to eat healthier</p>
+						</div><!-- end newsContainer -->
+					</a href="#"><!-- end imageContainer --></div>
 
 				<!-- article 3 -->
-				<a href="#" class="art3 imageContainer">
-					<h2 class="hidden">Article 3</h2>
-
-					<div class="newsContainer">
-						<p class="date">January 22, 2015</p>
-						<p>TD Bank gives SC Dads and kids some gridiron memories to treasure</p>
-					</div><!-- end newsContainer -->
-				</a href="#"><!-- end imageContainer -->
+				<div class="articleContainer"><a href="#" class="art3 imageContainer">
+						<h2 class="hidden">Article 3</h2>
+					
+						<div class="newsContainer">
+							<p class="date">January 22, 2015</p>
+							<p>TD Bank gives SC Dads and kids some gridiron memories to treasure</p>
+						</div><!-- end newsContainer -->
+					</a href="#"><!-- end imageContainer --></div>
 
 			</section><!-- end news -->
 
 
 			<!-- Newsletter CTA -->
 			<section class="newsletterCTA">
-				<div class="">
+				<div class="newsletterContainer">
 					<h5>Want more free resources and advice?</h5>
 					<p>Sign up for our newsletter today!</p>
 					<a href="#" class="subscribe Button">Subscribe</a>
-				</div><!-- end textContainer -->
+				</div><!-- end newsletterContainer -->
 			</section><!-- end newsletterCTA -->
 
 
@@ -187,8 +189,7 @@
 						<a href="#" class="contactUs">Contact Us</a>
 					
 						<div class="contact">
-							<p>2711 Middleburg Drive</p>
-							<p>Suite 111</p>
+							<p>2711 Middleburg Drive, Suite 111</p>
 							<p>Columbia, SC 29204</p>
 						</div><!-- end contact -->
 					
@@ -199,16 +200,28 @@
 						</address><!-- end contact -->
 					
 						<!-- Social Icons -->
-						<a href=""><img src="images/facebook-icon.png" alt="" class="socialIcon"></a>
-						<a href=""><img src="images/twitter-icon.png" alt="" class="socialIcon"></a>
+						<ul class="socialIcons">
+							<li>
+								<a href="" class="social facebook">Facebook</a>
+							</li>
+							<li>
+								<a href="" class="social twitter">Twitter</a>
+							</li>
+						</ul>
 
 					</div><!-- end textContainer -->
 					
 					<!-- Footer Bottom -->
-					<div class="footerBottom">
-						<p>&copy; Copyright 2014 The South Carolina Center for Fathers and Families</p>
-						<a href="">Privacy Policy</a>
-						<a href="">Site Map</a>
+					<div class="footerBottom clearfix">
+						<p>&copy; 2015 The South Carolina Center for Fathers and Families</p>
+						<ul class="footerLinks">
+							<li>
+								<a href="">Privacy Policy</a>
+							</li>
+							<li>
+								<a href="">Site Map</a>
+							</li>
+						</ul>
 					</div><!-- footerBottom -->
 
 			</footer><!-- end mainFooter -->
