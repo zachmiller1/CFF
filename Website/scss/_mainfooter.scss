@@ -1,0 +1,107 @@
+/* ========================================
+			Footer
+=========================================== */
+
+
+.mainFooter {
+	background: #33414d;
+	padding-top: 40px;
+}
+
+.mainFooter h6 {
+	color: #6994b8;
+	letter-spacing: .8;
+	margin-bottom: 10px;
+	line-height: 1.3;
+}
+
+.mainHeader p {
+	color: #aaa;
+}
+
+.footerHeader p {
+	font-style: italic;
+	color: #aaa;
+	font-size: .675em;
+}
+
+a.contactUs {
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+b {
+	font-weight: 700;
+	letter-spacing: .9;
+}
+
+.contact p {
+	color: #aaa;
+}
+
+.contactUs {
+		font-size: 1em;
+		border: 2px solid #6993b7;
+		color: #ccc;
+		padding: 5px 50px;
+		border-radius: 3px;
+	}
+
+address {
+	margin-top: 10px;
+}
+
+.social {
+	background: url('../images/social-icons.png') no-repeat;
+	background-image: linear-gradient(transparent, transparent), url('../images/social-icons.svg');
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	text-indent: -9999px;
+	margin: 30px 10px 40px;
+}
+
+.socialIcons li {
+	display: inline;
+}
+
+.facebook:hover {
+	background-position: 0 -35px;
+}
+
+.twitter {
+	background-position: -35px 0;
+}
+
+.twitter:hover {
+	background-position: -35px -35px;
+}
+
+.footerBottom {
+	background: #6994b8;
+	/*height: 75px;*/
+	padding: 10px;
+}
+
+.footerBottom p {
+	color: #fff;
+	font-size: .675em;
+	margin-bottom: 10px;
+}
+
+.footerLinks li {
+	display: inline;
+	
+}
+
+.footerLinks a:last-child {
+	border: none;
+}
+
+.footerBottom a {
+	font-size: .675em;
+	color: #33414d;
+	display: inline-block;
+	border-right: 1px solid #fff;
+	padding: 0 5px 0 5px;
+}

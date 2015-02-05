@@ -1,0 +1,66 @@
+/* ========================================
+			General Styles 
+=========================================== */
+
+body {
+	font-family: $font;
+	background: url('../images/church.png') top left repeat;
+	text-align: center;
+	color: #222;
+}
+
+h1 {
+	font-size: 1.625em;
+	font-weight: 100;
+	color: #fff;
+	@include Tshadow(0px, 1px, 3px, rgba(0, 0, 0, 0.35));
+	margin: 15px 0;
+}
+
+h2 {
+	font-size: 1.75em;
+	font-weight: 900;
+	margin-bottom: 30px;
+	color: $darkblue;
+	letter-spacing: .5px;
+}
+
+h3 {
+	font-size: 1.625em;
+	font-weight: 700;
+	margin: 0 0 20px;
+	color: #264f74;
+	letter-spacing: -.4px;
+}
+
+h4 {
+	font-size: 1.5em;
+	font-weight: 700;
+	color: #fff;
+	margin: 0 0 30px;
+	-webkit-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
+	-moz-box-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
+	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
+	letter-spacing: 1px;
+}
+
+h5 {
+	font-size: 1em;
+	font-weight: 700;
+	font-style: italic;
+	color: #fff;
+}
+
+a {
+	color: #6993b7;
+	font-size: 1em;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+p {
+	font-size: .875em;
+	color: #222;
+	line-height: 1.5;
+	font-weight: 300;
+}

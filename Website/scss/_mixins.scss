@@ -1,0 +1,24 @@
+
+// Breakpoints
+
+@mixin breakpoint($point) {
+	@media ('min-width:' + $point) {
+		@content;
+	}
+}
+
+// Text Shadow
+
+@mixin Tshadow($x, $y, $blur, $color) {
+	text-shadow: $x $y $blur $color;
+	-webkit-text-shadow: $x $y $blur $color;
+	-moz-box-text-shadow: $x $y $blur $color;
+}
+
+// Box Shadow 
+
+@mixin Bshadow($x, $y, $blur, $color) {
+	box-shadow: $x $y $blur $color;
+	-webkit-box-shadow: $x $y $blur $color;
+	-moz-box-box-shadow: $x $y $blur $color;
+}

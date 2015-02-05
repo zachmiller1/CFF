@@ -1,0 +1,51 @@
+/* ========================================
+			What We Offer
+=========================================== */
+
+.offerSection {
+	background: rgba(218, 224, 229, .5);
+}
+
+.offerIntro p {
+	margin-bottom: 40px;
+	font-size: 1em;
+	line-height: 1.7;
+}
+
+.offercontainer p {
+	font-weight: 300;
+}
+
+.offerContainer {
+	padding: 20px 0;
+	margin-bottom: 30px;
+	background: rgba(255, 255, 255, .5);
+	display: block;
+
+}
+
+.offerImage {
+	width: 190px;
+	height: 125px;
+	border: 1px solid #264f74;
+	border-radius: 10px;
+	margin: 0 auto 20px;
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.6);
+	-moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 0.6);
+	box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 0.6);
+}
+
+.programs {
+	background: url('../images/programs.jpg');
+	background-size: cover;
+}
+
+.resources {
+	background: url('../images/resources.jpg');
+	background-size: cover;
+}
+
+.expertise {
+	background: url('../images/expertise.jpg');
+	background-size: cover;
+}

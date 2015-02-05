@@ -1,0 +1,46 @@
+/* ========================================
+			By the Numbers
+=========================================== */
+
+
+.numbers {
+	background: rgb(105,152,195); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(105,152,195,1) 0%, rgba(38,79,116,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(105,152,195,1)), color-stop(100%,rgba(38,79,116,1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(105,152,195,1) 0%,rgba(38,79,116,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  rgba(105,152,195,1) 0%,rgba(38,79,116,1) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(105,152,195,1) 0%,rgba(38,79,116,1) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  rgba(105,152,195,1) 0%,rgba(38,79,116,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6998c3', endColorstr='#264f74',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ 
+ 	/*height: 280px;*/
+ 	padding: 35px 0;
+}
+
+.numbers p {
+	font-size: 1.375em;
+	font-weight: 100;
+	color: #fff;
+}
+
+p.number {
+	font-weight: 700;
+	font-style: italic;
+	font-size: 2.625em;
+	margin: 10px 0;
+	-webkit-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
+	-moz-box-text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
+	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.35);
+}
+
+.alignR {
+	text-align: right;
+}
+
+.alignL {
+	text-align: left;
+}
+
+em {
+	font-style: italic;
+}

@@ -1,0 +1,195 @@
+/* --------- 768px ------- */
+
+@media screen and (min-width: 768px) {
+
+	/* General */
+
+	.Button {
+		width: 210px;
+		font-size: 1.25em;
+		padding: 16px 0;
+	}
+
+	main.container {
+		padding: 80px 0;
+	}
+
+	section {
+		padding: 80px 0;
+	}
+   
+
+	/* Header */
+
+	.logoReplace a {
+		height: 170px;
+		width: 400px;
+	}
+
+
+
+	/* Nav */
+
+	.mainNav a {
+		padding: 25px 0;
+		width: 33.333%;
+		font-size: 1em;
+	}
+
+	.mainNav a.search {
+		display: block;
+		float: left;
+		background: #973b3b;
+	}
+
+	.blue {
+		float: left;
+	}
+
+
+
+	/* Hero */
+
+	.heroImage {
+		height: 450px;
+	}
+
+	.heroText h1 {
+		width: 58%;
+		margin: 35px auto;
+		font-size: 3.1em;
+	}
+
+
+
+	/* Main */
+
+	main h2 {
+		font-size: 2.3em;
+	}
+
+	main p {
+		font-size: 1.325em;
+	}
+
+
+
+	/* What We Offer */
+
+	h2 {
+		font-size: 2em;
+	}
+
+	.offerIntro p {
+		font-size: 1.25em;
+		margin-bottom: 80px;
+	}
+
+	a.offerContainer {
+		margin-bottom: 60px;
+	}
+
+	a.offerContainer:last-child {
+		margin-bottom: 40px;
+	}
+
+	.offerSection .textContainer {
+		width: 90%;
+	}
+
+	.offerImage {
+		float: left;
+		margin-right: 25px;
+	}
+
+	.offerContainer p {
+		text-align: left;
+		font-size: 1em;
+	}
+
+	.offerContainer h3 {
+		margin-top: 10px;
+		margin-bottom: 35px;
+		font-size: 1.875em;
+	}
+
+
+
+	/* Numbers */
+
+	h4 {
+		font-size: 2em;
+	}
+
+	.numbers p {
+		font-size: 1.825em;
+	}
+
+	p.number {
+		font-size: 3em;
+	}
+
+	.numbers .textContainer {
+		width: 50%;
+	}
+
+
+
+	/* News */
+
+	.articleContainer {
+		width: 33.33%;
+		float: left;
+	}
+
+
+
+
+
+	/* Newsletter CTA */
+
+	.newsletterContainer {
+		padding: 10px 0;
+	}
+
+	.newsletterContainer h5 {
+		font-size: 1.5em;
+	}
+
+	.newsletterContainer p {
+		font-size: 1.25em;
+		margin-bottom: 10px;
+	}
+
+
+	/* Footer */
+
+	p {
+		font-size: 1em;
+	}
+
+	.footerHeader p {
+		font-size: .875em;
+	}
+
+	.mainFooter h6 {
+		font-size: 1.125em;
+	}
+
+	.contactUs {
+		font-size: 1.125em;
+		border: 2px solid #6993b7;
+		color: #ccc;
+		padding: 5px 50px;
+		border-radius: 3px;
+	}
+
+	.footerBottom p, .footerBottom a {
+		font-size: .875em;
+	}
+
+	.footerBottom p {
+		margin-bottom: 15px;
+	}
+
+}

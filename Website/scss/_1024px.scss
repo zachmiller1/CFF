@@ -1,0 +1,183 @@
+/* ------------ 1024px ---------- */
+
+@media screen and (min-width: 1024px) {
+
+	/* General */
+
+	p {
+		text-align: left;
+	}
+
+
+	/* Header */
+
+	h1.logoReplace {
+		margin-bottom: 40px;
+	}
+
+
+
+	/* Main Nav */
+
+	.mainNav a.search, a.green, a.blue {
+		display: none;
+	}
+
+	.menuNav {
+		display: block;
+		width: 100%;
+		background: #486179;
+	}
+
+	.menuNav li {
+		display: inline;
+	}
+
+	.menuNav a {
+		display: inline-block;
+		padding: 25px;
+		width: auto;
+	}
+
+	a.donateNav {
+		background: #52973A;
+	}
+
+	a.searchNav {
+		background: #953333;
+	}
+
+	.mainNav a:hover {
+		background: #5f7e9c;
+	}
+
+	a.donateNav:hover {
+		background: #64b848;
+	}
+
+	a.searchNav:hover {
+		background: #c54949;
+	}
+
+
+
+	/* Hero Image */
+
+	.heroImage {
+		height: 600px;
+	}
+
+	.heroText h1 {
+		text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+		font-size: 4em;
+	}
+
+
+
+	/* We Offer */
+
+	a.offerContainer {
+		width: 31.8%;
+		margin-right: 20px;
+		float: left;
+	}
+
+	.offerImage {
+		float: none;
+		margin: 0 auto 25px;
+	}
+
+	a.offerContainer:last-child {
+		margin-right: 0;
+	}
+
+	.offerSection p {
+		padding: 0 10px;
+		text-align: center;
+	}
+
+
+
+	/* By the Numbers */
+
+	p.number {
+		text-align: center;
+	}
+
+
+
+	/* News */
+
+	.imageContainer {
+		width: 256px;
+		height: 225px;
+	}
+
+	.newsContainer p {
+		text-align: center;
+		font-size: .875em;
+	}
+
+	.articleContainer:hover {
+		background: blue;
+	}
+
+
+
+	/* Newsletter CTA */
+
+	.newsletterContainer {
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.newsletterText {
+		float: left;
+	}
+
+	.subscribe {
+		float: right;
+		margin-top: 0;
+	}
+
+	.newsletterText p {
+		text-align: center;
+	}
+
+
+
+	/* Footer */
+
+	.mainFooter p {
+		text-align: center;
+	}
+
+	.mainFooter .textContainer {
+		width: 90%;
+	}
+
+	.subscribe:hover {
+		-moz-box-shadow: 0 0 10px #fff;
+		-webkit-box-shadow: 0 0 10px #fff;
+		box-shadow: 0px 0 10px #fff;
+		font-weight: 400;
+	}
+
+	.donate:hover {
+		background: #64b848;
+	}
+
+	a.contactUs:hover {
+		border-color: #ccc;
+		color: #6994b8;
+		background: #ccc;
+	}
+
+	.footerLinks a:hover {
+		color: #fff;
+	}
+
+
+
+
+}

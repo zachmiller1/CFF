@@ -1,0 +1,58 @@
+/* ========================================
+			News
+=========================================== */
+
+.news h2 {
+	margin-bottom: 50px;
+}
+
+.imageContainer {
+	width: 205px;
+	height: 180px;
+	margin: 0 auto 30px;
+	border-radius: 5px;
+	position: relative;
+	-webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+	-moz-box-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+	display: block;
+}
+
+.newsContainer {
+	background: rgba(82, 151, 59, .8);
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	border-radius: 0 0 5px 5px;
+	padding: 5px;
+}
+
+.newsContainer p.date {
+	font-weight: 700;
+	color: #fff;
+	margin: 5px 0;
+}
+
+.newsContainer p {
+	font-size: .675em;
+	font-weight: 300;
+	line-height: 1;
+	color: #fff;
+	line-height: 1.4;
+	margin-bottom: 5px;
+}
+
+.art1 {
+	background: url('../images/toyotaDad.jpg');
+	background-size: cover;
+}
+
+.art2 {
+	background: url('../images/healthy.jpg') -20px;
+	background-size: cover;
+}
+
+.art3 {
+	background: url('../images/tdBank.jpg') -70px;
+	background-size: cover;
+}

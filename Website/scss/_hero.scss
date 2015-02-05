@@ -1,0 +1,25 @@
+/* ========================================
+			Hero Section
+=========================================== */
+
+.heroImage {
+	background: url('../images/heroImage.jpg') no-repeat;
+	width: 100%;
+	height: 225px;
+	background-size: cover;
+	position: relative;
+}
+
+.heroText {
+	background: rgba(109, 145, 168, .75);
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.heroText h1 {
+	width: 75%;
+	margin: 12px auto;
+	line-height: 1.2;
+}

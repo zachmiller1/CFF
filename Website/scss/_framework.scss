@@ -1,0 +1,75 @@
+/* ========================================
+			Framework Styles 
+=========================================== */
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.donate {
+	background: #52973b;
+	color: #fff;
+	margin: 50px 0;
+}
+
+.green {
+	background: #52973b;
+	float: left;
+}
+
+.blue {
+	background: #486179;
+	float: right;
+}
+
+.subscribe {
+	background: #fff;
+	color: #222;
+	margin: 15px 0 20px;
+}
+
+.Button {
+	font-size: 1em;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	width: 140px;
+	padding: 8px 0;
+	text-align: center;
+	display: inline-block;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.35);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.35);
+}
+
+.offerContainer {
+	border: 1px solid #264f74;
+	border-radius: 10px;
+}
+
+.hidden {
+	position: absolute;
+	left: -9999px;
+}
+
+.clearfix { 
+	zoom: 1; 
+}
+
+.clearfix:before, .clearfix:after { 
+	content: ""; 
+	display: table; 
+}
+
+.clearfix:after { 
+	clear: both; 
+}
+
+section {
+	padding: 40px 0;
+}
